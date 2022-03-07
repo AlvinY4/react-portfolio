@@ -1,0 +1,312 @@
+* {
+  box-sizing: border-box;
+ }
+  
+ main {
+  margin: 0 auto;
+  max-width: 98%;
+  padding: 20px 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+ }
+  
+ html, body {
+  min-height: 100%;
+  font-family: 'Roboto', sans-serif;
+ }
+  
+ body {
+  margin: 0;
+  padding: 0;
+  font-weight: 600;
+  line-height: 1.5;
+  font-size: 18px;
+  letter-spacing: 0.1em;
+  background: aliceblue; 
+  color: #255C99;
+ }
+  
+ h1,h2,h3,h4,h5,h6 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  margin: 5px 0;
+  line-height: 1.25;
+ }
+  
+ .contact {
+  font-size: 3rem;
+  border-bottom: 1px solid #255C99;
+  margin-bottom: 20px;
+  margin-top: 50px;
+  text-align: center;
+ }
+  
+ h2 {
+  font-size: 2rem;
+ }
+  
+ h3 {
+  font-size: 1.75rem;
+ }
+  
+ h4 {
+  font-size: 1.5rem;
+ }
+  
+ h5 {
+  font-size: 1.25rem;
+ }
+  
+ h6 {
+  font-size: 1rem;
+ }
+  
+ p {
+  font-size: 1.5rem;
+  margin-top: 0;
+ }
+  
+ a {
+  border-radius: 5px;
+  color: white;
+  font-weight: 600;
+  text-decoration: none;
+  padding: 2px 4px;
+  margin-left: -2px;
+  margin-right: -2px;
+ }
+  
+ header {
+  width: 100%;
+  position: relative;
+  margin-top: 0;
+  left: 0;
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  padding: 10px;
+  border-bottom: 1px solid grey;
+  background: aliceblue;
+ }
+  
+ header a {
+  color: #255C99;
+ }
+  
+  
+ button:hover {
+  opacity: 0.8;
+ }
+  
+ button[disabled] {
+  cursor: default;
+  opacity: 0.8;
+ }
+ .portfolio {
+  margin: 90px auto;
+ }
+  
+ .card {
+  align-items: center;
+  margin: 20px;
+ }
+  
+ img {
+  max-width: 100%;
+  border-radius: 5%
+ }
+  
+ form {
+  width: 40%;
+ }
+  
+ input {
+  font-size: 1rem;
+  padding: 0.25rem;
+  border: 1px solid #255C99;
+  outline: none;
+  border-radius: 3px;
+  transition: box-shadow 0.2s;
+ }
+  
+ input:focus {
+  border: 1px solid #255C99;
+  box-shadow: 0 0 0.25rem rgba(0, 0, 0, 0.5);
+ }
+  
+ li {
+  list-style: none;
+ }
+  
+ nav a:hover {
+  text-decoration: none;
+  color: #D1F0B1;
+  font-style: italic;
+ }
+  
+ .logo a:hover {
+  text-decoration: none;
+  color: #D1F0B1;
+  font-style: italic;
+ }
+  
+ nav li {
+  cursor: pointer;
+ }
+  
+ textarea {
+  width: 600px;
+  height: 120px;
+  border: 1px solid #255C99;
+  padding: 5px;
+ }
+  
+ .container {
+  width: 85%;
+  max-width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+ }
+  
+ .row {
+  margin: 0 auto;
+ }
+ .flex-row {
+  display: flex;
+  flex-wrap: wrap;
+ }
+  
+ .space-between {
+  justify-content: space-between;
+ }
+  
+ .flex-end {
+  justify-content: flex-end;
+ }
+  
+ .mx-1 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+ }
+  
+ .mx-2 {
+  margin-right: 1rem;
+  margin-left: 1rem;
+ }
+  
+ .my-1 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ }
+  
+ .my-2 {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+ }
+  
+ .my-5 {
+  margin-top: 2.5rem;
+  margin-bottom: 2.5rem;
+ }
+  
+ .px-1 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+ }
+  
+ .px-2 {
+  padding-right: 1rem;
+  padding-left: 1rem;
+ }
+  
+ .py-1 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+ }
+  
+ .py-2 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+ }
+  
+ .card {
+  text-align: center;
+ }
+  
+ .img-thumbnail {
+  width: auto;
+  height: 300px;
+  margin-bottom: 50px;
+  cursor: pointer;
+ }
+  
+ button {
+  border: none;
+  outline: none;
+  border-radius: 5px;
+  color: #fff;
+  background: #255C99;
+  cursor: pointer;
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 9px;
+  padding: 10px 25px;
+ }
+  
+ .home {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+ }
+  
+ .home .title {
+  font-size: 1em;
+  text-align: center;
+  padding: 1rem;
+ }
+  
+ .picture {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+ }
+  
+ .home .picture img {
+  width: 15em;
+  border-radius: 5px;
+  border-width: 5px; 
+ }
+  
+ .about {
+  text-align: center;
+  margin: 20px 10px;
+  padding: 5rem;
+  font-size: 10px;
+ }
+  
+ .about h1 {
+  margin: 50px;
+  font-size: 50px;
+  border-bottom: 1px solid #255C99 ;
+ }
+  
+ footer {
+  width: 100%;
+  position: fixed;
+  bottom: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: aliceblue;
+ }
+  
+  
+ footer ul li {
+  display: inline;
+  font-size: 2rem;
+  padding: 1rem;
+  color: #255C99;
+ }
+ 
