@@ -1,3 +1,4 @@
+// About Me page 
 import React from 'react'; 
 
 function About() {

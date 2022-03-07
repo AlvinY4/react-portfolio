@@ -1,3 +1,4 @@
+// Displays Past Projects 
 import React from 'react';
 
 import GuessThatMovie from "../../assets/images/app-image.png";

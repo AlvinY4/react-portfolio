@@ -1,3 +1,4 @@
+// Footer with Github and Linkedin Links/Icons
 import React from 'react'; 
 import { FaGithub, FaLinkedin } from "react-icons/fa"; 
 

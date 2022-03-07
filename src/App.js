@@ -1,3 +1,4 @@
+// Dislplaying content usung HashRouter
 import React, { Component } from 'react';
 import { HashRouter, Route, Routes } from 'react-router-dom';
 import './App.css';
