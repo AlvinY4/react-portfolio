@@ -21,8 +21,9 @@ For this weeks assignment I created a new Portfolio using REACT and bootstrap. F
 
 ## Screenshot
 
-<img src=
+<img src=https://github.com/AlvinY4/react-portfolio/blob/main/src/assets/images/Screen%20Shot%202022-03-06%20at%2011.08.11%20PM.png> 
 
 
 ## Deployed Link 
 
+http://AlvinY4.github.io/react-portfolio 
