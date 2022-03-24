@@ -3,6 +3,7 @@ import React from 'react';
 
 import GuessThatMovie from "../../assets/images/app-image.png";
 import WineShare from "../../assets/images/wine-share-app.png";
+import ArtClub from "../../assets/images/artclub-app .png"
 
 
 function Portfolio() {
@@ -48,8 +49,25 @@ function Portfolio() {
           </div>
         </div>
       </div>
-    </section>
 
+      <div class="col">
+          <div class="card">
+            <img
+              src={ArtClub}
+              alt="Art-Club-Website-Screenshot"
+              class="card-img-top"
+            />
+            <div class="card-body">
+              <a href="https://github.com/AlvinY4/art-club/tree/master" target="_blank" rel="noreferrer">
+                <button>GitHub</button>
+              </a>
+              <a href="https://art-mania-club.herokuapp.com/" target="_blank" rel="noreferrer">
+                <button>Website</button>
+              </a>
+            </div>
+          </div>
+        </div>
+    </section>
 
   );
 }
