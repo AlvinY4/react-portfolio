@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/react-portfolio/static/css/main.7d323345.css",
-    "main.js": "/react-portfolio/static/js/main.cbd4d391.js",
+    "main.js": "/react-portfolio/static/js/main.ee846ea6.js",
     "static/js/787.a2cb61a6.chunk.js": "/react-portfolio/static/js/787.a2cb61a6.chunk.js",
     "static/media/app-image.png": "/react-portfolio/static/media/app-image.9b04509bf0b31f35046a.png",
     "static/media/wine-share-app.png": "/react-portfolio/static/media/wine-share-app.4da7ecf39328ac6d64e9.png",
+    "static/media/artclub-app .png": "/react-portfolio/static/media/artclub-app .5af61925fb79cc37caf5.png",
     "static/media/Bio-Picture.jpeg": "/react-portfolio/static/media/Bio-Picture.904358f6825c6b114ea9.jpeg",
     "index.html": "/react-portfolio/index.html",
     "main.7d323345.css.map": "/react-portfolio/static/css/main.7d323345.css.map",
-    "main.cbd4d391.js.map": "/react-portfolio/static/js/main.cbd4d391.js.map",
+    "main.ee846ea6.js.map": "/react-portfolio/static/js/main.ee846ea6.js.map",
     "787.a2cb61a6.chunk.js.map": "/react-portfolio/static/js/787.a2cb61a6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7d323345.css",
-    "static/js/main.cbd4d391.js"
+    "static/js/main.ee846ea6.js"
   ]
 }
