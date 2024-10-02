@@ -17,7 +17,7 @@ SO THAT I can assess whether they're a good candidate for an open position
 
 ## Description 
 
-For this weeks assignment I created a new Portfolio using REACT and bootstrap. Feel free to check it out by clicking the link below! 
+I have created a profile homepage that includes some of the biggest web developing project I have contributed to. Feel free to click on the link below and check it out! 
 
 ## Screenshot
 
